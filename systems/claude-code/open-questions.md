@@ -31,6 +31,16 @@ This is the continuation queue for the current Claude Code subagent deep dive.
    - Understand whether nested child results bubble only to their immediate parent or have any shared event path.
    - Investigate how nested async agents use the root AppState channel.
 
+6. **Forking when the platform owns message/tool IDs**
+   - Scenario: our agent runtime is built on Claude Code, but the platform wraps/reorganizes messages and tools and assigns its own `message_id` / `tool_id` instead of exposing Claude Code's native IDs.
+   - What is the correct fork primitive: clone the platform event log, reconstruct Claude-native history, or maintain a mapping between logical IDs and provider-native IDs?
+   - Which identifiers are semantic identity versus transport identity? Which must remain stable across a fork for tool-result pairing, transcript lineage, resume and prompt-cache reuse?
+   - Should a child fork reference an immutable `fork_point` / parent event sequence rather than physically copying all platform records?
+   - How should parent/child trajectories be represented so both branches can reuse the same pre-fork history but have independent post-fork IDs?
+   - What happens when the platform has transformed, summarized, reordered or merged native Claude messages before the fork request?
+   - Can a fork preserve Claude Code's byte-identical prompt prefix if the platform has rewritten IDs or tool envelopes?
+   - Design an ID translation layer and define invariants for retries, resume, replay, deduplication and nested forks.
+
 ## Configuration questions
 
 - Exact precedence among parent model, agent frontmatter model and `Agent(model=...)` override.
