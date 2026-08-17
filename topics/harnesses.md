@@ -25,6 +25,15 @@ The harness is the runtime and control layer around a model: context constructio
 - telemetry and traces
 - budgets, timeouts, and stopping rules
 
+## Concrete systems / deep dives
+
+- [Claude Code system hub](../systems/claude-code/README.md)
+  - [Subagent architecture: context, lifecycle, communication, and design](../systems/claude-code/subagents.md)
+  - [Evidence/source map](../systems/claude-code/sources.md)
+  - [Open questions](../systems/claude-code/open-questions.md)
+
+The Claude Code study is currently the first concrete system used to extract general harness principles. In particular, it is useful for studying semantic handoff vs full-context forks, sidechain trajectories, background task lifecycle, prompt-cache-aware orchestration, per-agent capabilities, and resource ownership.
+
 ## Related topics
 
 - [Agents](agents.md)
