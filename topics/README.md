@@ -2,6 +2,10 @@
 
 Durable synthesis pages live here. Each topic should answer: what is it, why does it matter, how does it work, what design tradeoffs exist, how is it evolving, and what evidence changed our view?
 
+## Concept cards
+
+Named concepts, principles, and paradoxes live in [`concepts/`](../concepts/README.md). They can be linked from multiple topic and system pages without being owned by any single one.
+
 ## Core map
 
 - [Agents](agents.md)
