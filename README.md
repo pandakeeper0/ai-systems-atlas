@@ -19,7 +19,7 @@ This repository separates **capture** from **synthesis**:
 - `sources/` — notes tied to a concrete paper/article/post/release
 - `learning/` — chronological learning progress and study sessions
 - `topics/` — durable Atlas pages organized by broad topic
-- `concepts/` — compact cards for named concepts, principles, paradoxes, and reusable ideas
+- `principles-and-ideas/` — named principles, paradoxes, laws, effects, criteria, and other reusable intellectual ideas
 - `briefs/` — daily/weekly curated digests
 - `questions/` — unresolved questions and hypotheses worth revisiting
 - `templates/` — lightweight templates for consistent capture
