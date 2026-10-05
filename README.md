@@ -18,23 +18,21 @@ This repository separates **capture** from **synthesis**:
 - `inbox/` — fast capture; low friction, not yet fully organized
 - `sources/` — notes tied to a concrete paper/article/post/release
 - `learning/` — chronological learning progress and study sessions
-- `topics/` — durable Atlas pages organized by broad topic
-- `principles-and-ideas/` — named principles, paradoxes, laws, effects, criteria, and other reusable intellectual ideas
-- `math/` — mathematical foundations, organized by discipline and added incrementally as they are learned
+- `knowledge/` — durable knowledge organized by domain, including AI, mathematics, and cross-domain principles & ideas
 - `briefs/` — daily/weekly curated digests
 - `questions/` — unresolved questions and hypotheses worth revisiting
 - `templates/` — lightweight templates for consistent capture
 
 The goal is not to archive everything. The goal is to continuously turn useful signals into a compact, navigable mental model of AI systems.
 
-## Core topics
+## Knowledge map
 
-Start from [`topics/README.md`](topics/README.md) for the topic map.
+Start from [`knowledge/README.md`](knowledge/README.md) for the durable knowledge map.
 
 ## Workflow
 
 1. Capture interesting material quickly in `inbox/` or `sources/`.
 2. Record what was learned in `learning/`.
-3. Promote durable insights into the relevant `topics/` page.
+3. Promote durable insights into the relevant `knowledge/` page.
 4. Use `briefs/` to summarize new developments and connect them to existing topics.
 5. Keep unresolved design questions in `questions/` until evidence is strong enough to update the Atlas.
