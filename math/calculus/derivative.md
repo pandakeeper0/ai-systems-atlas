@@ -68,58 +68,58 @@ $$
 f'(x)
 =
 \lim_{h\to0}
-\frac{f(x+h)-f(x)}{h}
+\frac{f(x+\\Delta x)-f(x)}{\\Delta x}
 =
 \lim_{h\to0}
-\frac{(x+h)^n-x^n}{h}
+\frac{(x+\\Delta x)^n-x^n}{\\Delta x}
 $$
 
 利用二项式定理展开：
 
 $$
-(x+h)^n
+(x+\\Delta x)^n
 =
 x^n
 +
-nx^{n-1}h
+nx^{n-1}\\Delta x
 +
-\binom{n}{2}x^{n-2}h^2
+\binom{n}{2}x^{n-2}(\\Delta x)^2
 +
 \cdots
 +
-h^n
+(\\Delta x)^n
 $$
 
 代回差商：
 
 $$
-\frac{(x+h)^n-x^n}{h}
+\frac{(x+\\Delta x)^n-x^n}{\\Delta x}
 =
 \frac{
-nx^{n-1}h
+nx^{n-1}\\Delta x
 +
-\binom{n}{2}x^{n-2}h^2
+\binom{n}{2}x^{n-2}(\\Delta x)^2
 +
 \cdots
 +
-h^n
-}{h}
+(\\Delta x)^n
+}{\\Delta x}
 $$
 
-因为求极限的过程中 $h$ 是**趋近于 0 而不是等于 0**，可以先约掉一个 $h$：
+因为求极限的过程中 $\\Delta x$ 是**趋近于 0 而不是等于 0**，可以先约掉一个 $\\Delta x$：
 
 $$
 =
 nx^{n-1}
 +
-\binom{n}{2}x^{n-2}h
+\binom{n}{2}x^{n-2}\\Delta x
 +
 \cdots
 +
-h^{n-1}
+(\\Delta x)^{n-1}
 $$
 
-现在才令 $h\to0$。所有仍然含有 $h$ 的项都会趋近于 0，只剩：
+现在才令 $h\to0$。所有仍然含有 $\\Delta x$ 的项都会趋近于 0，只剩：
 
 $$
 \boxed{
@@ -143,7 +143,7 @@ $$
 P'(x)
 =
 \lim_{h\to0}
-\frac{P(x+h)-P(x)}{h}
+\frac{P(x+h)-P(x)}{\\Delta x}
 $$
 
 把每一项展开，可以利用极限的线性性质把它拆成各单项式的导数：
@@ -163,7 +163,7 @@ $$
 常数项 $a_0$ 消失，因为：
 
 $$
-\frac{a_0-a_0}{h}=0
+\frac{a_0-a_0}{\\Delta x}=0
 $$
 
 因此：
@@ -196,9 +196,9 @@ $$
 P'(x)=9x^2-4x+5
 $$
 
-这里每一个“指数掉下来、指数减一”的动作，都可以追溯回 $(x+h)^n$ 的二项式展开：当 $h\to0$ 时，只有 **恰好含一个 $h$ 的一阶项** 能在除以 $h$ 后留下来。
+这里每一个“指数掉下来、指数减一”的动作，都可以追溯回 $(x+\\Delta x)^n$ 的二项式展开：当 $h\to0$ 时，只有 **恰好含一个 $\\Delta x$ 的一阶项** 能在除以 $\\Delta x$ 后留下来。
 
-> **这就是 power rule 最值得记住的来源：差商除掉一个 $h$ 后，高阶 $h$ 项在极限中全部消失，只留下 $nx^{n-1}$。**
+> **这就是 power rule 最值得记住的来源：差商除掉一个 $\\Delta x$ 后，高阶 $\\Delta x$ 项在极限中全部消失，只留下 $nx^{n-1}$。**
 
 ---
 
