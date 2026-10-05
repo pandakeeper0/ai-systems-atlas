@@ -18,7 +18,8 @@ This repository separates **capture** from **synthesis**:
 - `inbox/` — fast capture; low friction, not yet fully organized
 - `sources/` — notes tied to a concrete paper/article/post/release
 - `learning/` — chronological learning progress and study sessions
-- `topics/` — durable Atlas pages organized by concept
+- `topics/` — durable Atlas pages organized by broad topic
+- `concepts/` — compact cards for named concepts, principles, paradoxes, and reusable ideas
 - `briefs/` — daily/weekly curated digests
 - `questions/` — unresolved questions and hypotheses worth revisiting
 - `templates/` — lightweight templates for consistent capture
