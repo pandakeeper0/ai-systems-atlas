@@ -173,6 +173,6 @@ Do not prematurely erase provider-native semantics. Platform objects should supp
 
 ## Related study
 
-- `systems/claude-code/subagents.md`
-- `systems/claude-code/open-questions.md`
-- `systems/claude-code/sources.md`
+- `knowledge/ai/systems/claude-code/subagents.md`
+- `knowledge/ai/systems/claude-code/open-questions.md`
+- `knowledge/ai/systems/claude-code/sources.md`
