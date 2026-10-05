@@ -20,6 +20,7 @@ This repository separates **capture** from **synthesis**:
 - `learning/` — chronological learning progress and study sessions
 - `topics/` — durable Atlas pages organized by broad topic
 - `principles-and-ideas/` — named principles, paradoxes, laws, effects, criteria, and other reusable intellectual ideas
+- `math/` — mathematical foundations, organized by discipline and added incrementally as they are learned
 - `briefs/` — daily/weekly curated digests
 - `questions/` — unresolved questions and hypotheses worth revisiting
 - `templates/` — lightweight templates for consistent capture
