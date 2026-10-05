@@ -10,7 +10,7 @@ A good entry should answer four things:
 
 ## Index
 
-| Idea | Type | One-line intuition |
-| --- | --- | --- |
-| [Pareto Optimality](pareto-optimality.md) | Principle / criterion | An outcome is efficient when improving one objective necessarily sacrifices another. |
-| [Moravec's Paradox](moravecs-paradox.md) | Paradox / observation | What feels easy to humans can be computationally hard for machines, and vice versa. |
+| Idea | 中文名 | Type | One-line intuition |
+| --- | --- | --- | --- |
+| [Pareto Optimality](pareto-optimality.md) | 帕累托最优 / 帕累托效率 | Principle / criterion | An outcome is efficient when improving one objective necessarily sacrifices another. |
+| [Moravec's Paradox](moravecs-paradox.md) | 莫拉维克悖论 | Paradox / observation | What feels easy to humans can be computationally hard for machines, and vice versa. |
