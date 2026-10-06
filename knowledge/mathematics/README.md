@@ -7,3 +7,4 @@ This is not intended to become a complete mathematics encyclopedia. Add material
 ## Sections
 
 - [Calculus](calculus/README.md)
+- [Trigonometry](trigonometry/sine-cosine.md) — start from the unit circle and derive sine/cosine, period, frequency, angular frequency, amplitude, and phase.
