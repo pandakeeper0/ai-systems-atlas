@@ -12,6 +12,7 @@ Named principles, paradoxes, laws, effects, criteria, and similar reusable ideas
 - [Harnesses](harnesses.md)
 - [Evaluation](evaluation.md)
 - [Models](models.md)
+- [Machine Learning](machine-learning/README.md) — neural networks, training, and learning fundamentals.
 - [Systems & Infrastructure](systems-infrastructure.md)
 - [AI Product Design](ai-product-design.md)
 
